@@ -1,16 +1,14 @@
+*************** WORK IN PROGRESS ****************
 Change Log:
+VERSION 10
 
-This version changes are based on Feedback from the community and observations from me to make it easier to test and troubleshoot.
+This version changes are based on my desire to incorporate both SMT and PTH on the same PCB
 
-There are no changes to the components or schematic.  This version was a reorganization of the components on board to allow for easier assembly and test.
+There are no changes to the schematic outside of package changes.
 
 Changes:
 
-o  New shape and Wider Pads on the PT4115
-o  12V Test Point was moved out into the open to make testing easier
-o  DIM and Data Test Points were moved out into the open by spacing out the transistors to make room.
-o  .1uf capacitor was moved and slightly rotated to ensure it had good spacing between it and the nearest solder point.
-o  4.7K resistors were spread out to help ensure there are no solder bridges between the adjacent
+o  New Inductor package was introduced that would support both SMD and the existing PTH inductors.
 
-These modifications are covered in a youTube Video:
-https://www.youtube.com/watch?v=llVNyRQc-tU 
+o  A new version for SMT only components is being developed at this time as well.  The 2N3904 has been replaced with a SMD transistor.
+o  Working on replacing the Resistors with SMD 805 versions.
