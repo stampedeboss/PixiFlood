@@ -1,6 +1,6 @@
 *************** WORK IN PROGRESS ****************
 Change Log:
-CURRENT VERSION 3.1
+CURRENT VERSION 3.2
 
 Version 3:
  is focused on delivering a single board designed to support any wattage of LED from 10w to 100w.
@@ -23,3 +23,6 @@ Changes:
 3.1:
     o   Reworking sidecar attachment and approach.
 
+
+3.2:
+    o   Reworking sidecar attachment and approach.
