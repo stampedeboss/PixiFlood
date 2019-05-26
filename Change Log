@@ -26,3 +26,17 @@ Changes:
 
 3.2:
     o   Reworking sidecar attachment and approach.
+
+3.3:
+    o   Prior version 3 designs used a hex inverter for signal iversion for the WS2811 IC, Beginning with 3.3, 3 transistors are now used.
+
+    o   An error in the line driver OE connection was corrected in 3.3 eliminating the overheating and lack of signal out of the DO circuit.
+
+    o   The sidecar was streamlines and reduced to the minimal components required to support the ESP-01 and no longer supplies programming
+        circuitry. I determined it would be unlikely that the floodlight board would be moved near a computer to support
+        programming via a USB. This change eliminated a number of components reducing the size and cost of the sidecar board.
+
+    o   A seperate stand-a-lone board has been developed that can be used to program the ESP-01 modules with the ESPixelStick Firmware
+        regardless of the intended platform.  This new board is a fully self contained unit that includes all circuitry including USB 
+        Connector for programming.  This new board can be found in github as "stampedeboss/ESP_PGMR". This design eliminates the 
+        additional wiring associated with attaching the ESPixelStick to the communications card.
