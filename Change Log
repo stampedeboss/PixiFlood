@@ -1,14 +1,10 @@
 *************** WORK IN PROGRESS ****************
 Change Log:
-VERSION 10
+VERSION 2.0
 
-This version changes are based on my desire to incorporate both SMT and PTH on the same PCB
-
-There are no changes to the schematic outside of package changes.
+This version changes are based on my desire to have a wireless flood.  This version lays the groundwork for incorporating the hardware components found on a ESPixelStick.  
 
 Changes:
 
-o  New Inductor package was introduced that would support both SMD and the existing PTH inductors.
-
-o  A new version for SMT only components is being developed at this time as well.  The 2N3904 has been replaced with a SMD transistor.
-o  Working on replacing the Resistors with SMD 805 versions.
+2.0:
+    o  Inital Version of the board
