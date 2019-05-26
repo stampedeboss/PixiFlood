@@ -1,6 +1,6 @@
 *************** WORK IN PROGRESS ****************
 Change Log:
-CURRENT VERSION 2.4
+CURRENT VERSION 2.5
 
 This version changes are based on my desire to have a wireless flood.  This version lays the groundwork for incorporating the hardware components found on a ESPixelStick.  
 
@@ -20,3 +20,7 @@ Changes:
 
 2.4:
     o   Connection issues resolved
+    o   Rotated components
+    
+2.5:
+    o   Reworking Layout
