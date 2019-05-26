@@ -1,0 +1,43 @@
+Part     Value          Device                       Package              Library               Sheet
+C1       100uF          UWT1H101MNL1GS               UD-8X10_NICHICON     rcl                   1
+C2       .1uF           UMK212BJ104MG-T              C0805                rcl                   1
+C3       .1uF           UMK212BJ104MG-T              C0805                rcl                   1
+C4       .1uF           UMK212BJ104MG-T              C0805                rcl                   1
+C5       10uF           UMK316BBJ106KL-T             C1206                rcl                   1
+C6       10uF           UMK316BBJ106KL-T             C1206                rcl                   1
+C7       10uF           UMK316BBJ106KL-T             C1206                rcl                   1
+
+D1       RB050L-60DD    RB050L-60DD                  SMA-DIODE            SparkFun-DiscreteSemi 1
+D2       3A/40V/500mV   1N4148W/BAV16W               SOD123               diode                 1
+D3       3A/40V/500mV   1N4148W/BAV16W 				 SOD123               diode                 1
+D4       3A/40V/500mV   1N4148W/BAV16W 				 SOD123               diode                 1
+
+IC1      WS2811SOP8     WS2811SOP8                   SO08-P-1.27          drivers               1
+IC2      BD9G401EFJ-M   BD9G401EFJ-M                 SOIC127P600X100-9N   drivers               1
+IC3      TC7W04FP-0.65  TC7W04FP-0.65                SSOP8-0.65P-(TSSOP8) logic                 1
+IC4      AL-8862        AL-8862                      SOIC8                drivers               1
+IC5      AL-8862        AL-8862                      SOIC8                drivers               1
+IC6      AL-8862        AL-8862                      SOIC8                drivers               1
+IC7      74LVC1G125DBV  74LVC1G125DBV                SOT23-5              logic                 1
+
+L1       22uH           SRN3010TA-220M               3.2X3.2_SRN3010TA    rcl                   1
+L2       100uH          VLS6045AF                    VLS6045AF            rcl                   1
+L3       100uH          VLS6045AF                    VLS6045AF            rcl                   1
+L4       100uH          VLS6045AF                    VLS6045AF            rcl                   1
+
+R1       33R            R-US_R0805                   R0805                rcl                   1
+R2       100R           R-US_R0805                   R0805                rcl                   1
+R3       4.7kR          R-US_R0805                   R0805                rcl                   1
+R4       4.7kR          R-US_R0805                   R0805                rcl                   1
+R5       4.7kR          R-US_R0805                   R0805                rcl                   1
+R6       4.7kR          R-US_R0805                   R0805                rcl                   1
+R7       4.7kR          R-US_R0805                   R0805                rcl                   1
+R8       4.7kR          R-US_R0805                   R0805                rcl                   1
+R9       4.7kR          R-US_R0805                   R0805                rcl                   1
+R10      .3R/.25w       R-US_R1210                   R1210                rcl                   1
+R11      .3R/.25w       R-US_R1210                   R1210                rcl                   1
+R12      .3R/.25w       R-US_R1210                   R1210                rcl                   1
+
+JP1      3 Pin Header   M03LOCK                      1X03_LOCK            connectors            1
+X2                      MPT6                         6POL254              con-phoenix-254       1
+X3                      MPT4                         4POL254              con-phoenix-254       1

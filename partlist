@@ -1,0 +1,52 @@
+Partlist
+
+Exported from PixiFlood_AL8862-2.brd at 2/15/19 12:06 PM
+
+EAGLE Version 9.3.0 Copyright (c) 1988-2019 Autodesk, Inc.
+
+Assembly variant: 
+
+Part     Value          Package              Library               Position (mm)         Orientation
+
+C1       100uF          UD-8X10_NICHICON     rcl                   (21.876575 5.365775)  R90			UWT1H101MNL1GS
+C2       .1uF           C0805                rcl                   (15.5575 41.91)       R180			UMK212BJ104MG-T
+C3       .1uF           C0805                rcl                   (11.1125 34.925)      R0				UMK212BJ104MG-T
+C4       .1uF           C0805                rcl                   (6.39 40.9575)        R90			UMK212BJ104MG-T
+C5       10uF           C1206                rcl                   (18.0975 32.0675)     R90			UMK316BBJ106KL-T
+C6       10uF           C1206                rcl                   (18.0975 20.955)      R90			UMK316BBJ106KL-T
+C7       10uF           C1206                rcl                   (14.835196875 9.31985) R90			UMK316BBJ106KL-T
+
+D1       RB050L-60DD    SMA-DIODE            SparkFun-DiscreteSemi (11.43 39.6875)       R270			RB050L-60DD
+D2       1N4148W        SOD123               diodes                (13.0175 32.0675)     R0				1N4148W
+D3       1N4148W        SOD123               diodes                (13.0175 20.6375)     R0				1N4148W
+D4       1N4148W        SOD123               diodes                (9.755196875 9.31985) R0				1N4148W
+
+IC1      WS2811SOP8     SO08-P-1.27          drivers               (27.915 21.59)        R180
+IC2      BD9G401EFJ-M   SOIC127P600X100-9N   drivers               (6.0325 33.655)       R270
+IC3      TC7W04FP-0.65  SSOP8-0.65P-(TSSOP8) logic                 (28.8925 16.8275)     R90
+IC4      AL-8862        SOIC8                drivers               (13.0175 26.9875)     R90
+IC5      AL-8862        SOIC8                drivers               (13.0175 15.5575)     R90
+IC6      AL-8862        SOIC8                drivers               (9.755196875 4.23985) R90
+IC7      74LVC1G125DBV  SOT23-5              logic                 (25.24125 11.811)     R180
+
+L1       22uH           SRN3010TA-220M       rcl                   (16.1925 37.465)      R90		SRN3010TA-220M
+L2       100uH          TYS8040101M-10       rcl                   (6.985 26.9875)       R180		TYS8040101M-10
+L3       100uH          TYS8040101M-10       rcl                   (6.985 15.5575)       R180		TYS8040101M-10
+L4       100uH          TYS8040101M-10       rcl                   (3.532196875 4.3351)  R180		TYS8040101M-10
+
+R1       33R            R0805                rcl                   (29.5275 13.335)      R0			ERJ-6ENF33R0V
+R2       100R	        R0805                rcl                   (24.765 17.145)       R270		ERJ-6ENF1000V
+R3       4.7kR          R0805                rcl                   (1.905 28.575)        R90		CRCW08054K70FKEBC
+R4       4.7kR          R0805                rcl                   (30.48 27.305)        R270		CRCW08054K70FKEBC
+R5       4.7kR          R0805                rcl                   (27.94 27.305)        R270		CRCW08054K70FKEBC
+R6       4.7kR          R0805                rcl                   (25.4 27.305)         R270		CRCW08054K70FKEBC
+R7       4.7kR          R0805                rcl                   (8.6675 40.9575)      R90		CRCW08054K70FKEBC
+R8       4.7kR          R0805                rcl                   (4.1275 40.9575)      R90		CRCW08054K70FKEBC
+R9       4.7kR          R0805                rcl                   (1.905 40.9575)       R270		CRCW08054K70FKEBC
+R10      .3R/.25w       R1210                rcl                   (18.7325 26.67)       R90		CRL1206-JW-R330ELF
+R11      .3R/.25w       R1210                rcl                   (18.545175 15.5829)   R90		CRL1206-JW-R330ELF
+R12      .3R/.25w       R1210                rcl                   (15.152696875 3.92235) R90		CRL1206-JW-R330ELF
+
+JP1                     1X03_LOCK            connectors            (31.276 40.81425)     R270
+X2                      6POL254              con-phoenix-254       (2.6543 15.547975)    R270
+X3                      4POL254              con-phoenix-254       (29.845 6.35)         R90
