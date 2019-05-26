@@ -1,6 +1,6 @@
 *************** WORK IN PROGRESS ****************
 Change Log:
-VERSION 2.0
+CURRENT VERSION 2.1
 
 This version changes are based on my desire to have a wireless flood.  This version lays the groundwork for incorporating the hardware components found on a ESPixelStick.  
 
@@ -8,3 +8,7 @@ Changes:
 
 2.0:
     o  Inital Version of the board
+    
+2.1:
+    o   Board increased in size to allow for additional components
+    o   Placement of components found in 1.1 of PixelSticks
