@@ -1,4 +1,6 @@
 eagle.epf
 *.b#*
 *.s#*
+Production/
+Gerbers/
 
