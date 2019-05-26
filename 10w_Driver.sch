@@ -18572,9 +18572,9 @@ manufacturer Siemens</description>
 <part name="D1" library="diode" deviceset="DIODE-" device="DO07"/>
 <part name="D2" library="diode" deviceset="DIODE-" device="DO07"/>
 <part name="D3" library="diode" deviceset="DIODE-" device="DO07"/>
-<part name="R7" library="resistor" deviceset="R-US_" device="0204/5" value=".33R"/>
-<part name="R8" library="resistor" deviceset="R-US_" device="0204/5" value=".33R"/>
-<part name="R9" library="resistor" deviceset="R-US_" device="0204/5" value=".33R"/>
+<part name="R7" library="resistor" deviceset="R-US_" device="0204/5" value=".33"/>
+<part name="R8" library="resistor" deviceset="R-US_" device="0204/5" value=".33"/>
+<part name="R9" library="resistor" deviceset="R-US_" device="0204/5" value=".33"/>
 <part name="C3" library="rcl" deviceset="CPOL-US" device="TT2D6L" value="100uF"/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="P+6" library="supply1" deviceset="+12V" device=""/>
@@ -18597,7 +18597,7 @@ manufacturer Siemens</description>
 <part name="IC1" library="linear" deviceset="78*" device="Z" technology="L05"/>
 <part name="P+1" library="supply1" deviceset="+12V" device=""/>
 <part name="P+4" library="supply1" deviceset="+5V" device=""/>
-<part name="R2" library="rcl" deviceset="R-US_" device="0204/5" value="100R"/>
+<part name="R2" library="rcl" deviceset="R-US_" device="0204/5" value="100ohm"/>
 <part name="IC2" library="MyLibrary" deviceset="WS2811" device="-SOP8"/>
 <part name="X1" library="MyLibrary" deviceset="22-23-2031" device=""/>
 <part name="X2" library="MyLibrary" deviceset="22-23-2031" device=""/>
@@ -18611,9 +18611,9 @@ manufacturer Siemens</description>
 <part name="T3" library="transistor" deviceset="2N3904" device=""/>
 <part name="T2" library="transistor" deviceset="2N3904" device=""/>
 <part name="T1" library="transistor" deviceset="2N3904" device=""/>
-<part name="R5" library="resistor" deviceset="R-US_" device="0204/5" value="4.7K"/>
-<part name="R4" library="resistor" deviceset="R-US_" device="0204/5" value="4.7K"/>
-<part name="R6" library="resistor" deviceset="R-US_" device="0204/5" value="4.7K"/>
+<part name="R5" library="resistor" deviceset="R-US_" device="0204/5" value="4.7k"/>
+<part name="R4" library="resistor" deviceset="R-US_" device="0204/5" value="4.7k"/>
+<part name="R6" library="resistor" deviceset="R-US_" device="0204/5" value="4.7k"/>
 <part name="P+5" library="supply1" deviceset="+5V" device=""/>
 <part name="JP1" library="jumper" deviceset="JP1E" device=""/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
@@ -18623,30 +18623,30 @@ manufacturer Siemens</description>
 <plain>
 </plain>
 <instances>
-<instance part="U1" gate="IC" x="38.1" y="30.48"/>
+<instance part="U1" gate="IC" x="38.1" y="35.56"/>
 <instance part="U2" gate="IC" x="38.1" y="-12.7"/>
-<instance part="U3" gate="IC" x="38.1" y="-55.88"/>
-<instance part="D1" gate="G$1" x="43.18" y="45.72" rot="R180"/>
+<instance part="U3" gate="IC" x="38.1" y="-58.42"/>
+<instance part="D1" gate="G$1" x="43.18" y="50.8" rot="R180"/>
 <instance part="D2" gate="G$1" x="43.18" y="2.54" rot="R180"/>
-<instance part="D3" gate="G$1" x="43.18" y="-40.64" rot="R180"/>
-<instance part="R7" gate="G$1" x="30.48" y="48.26" rot="R90"/>
-<instance part="R8" gate="G$1" x="30.48" y="5.08" rot="R90"/>
+<instance part="D3" gate="G$1" x="43.18" y="-43.18" rot="R180"/>
+<instance part="R7" gate="G$1" x="30.48" y="55.88" rot="R90"/>
+<instance part="R8" gate="G$1" x="30.48" y="7.62" rot="R90"/>
 <instance part="R9" gate="G$1" x="30.48" y="-38.1" rot="R90"/>
-<instance part="C3" gate="G$1" x="-5.08" y="35.56"/>
-<instance part="GND6" gate="1" x="-5.08" y="25.4"/>
-<instance part="P+6" gate="1" x="-15.24" y="43.18" rot="R90"/>
-<instance part="GND7" gate="1" x="38.1" y="15.24"/>
+<instance part="C3" gate="G$1" x="-5.08" y="40.64"/>
+<instance part="GND6" gate="1" x="-5.08" y="30.48"/>
+<instance part="P+6" gate="1" x="-15.24" y="50.8" rot="R90"/>
+<instance part="GND7" gate="1" x="38.1" y="20.32"/>
 <instance part="GND8" gate="1" x="38.1" y="-27.94"/>
-<instance part="GND9" gate="1" x="38.1" y="-71.12"/>
-<instance part="L3" gate="1" x="53.34" y="-40.64"/>
+<instance part="GND9" gate="1" x="38.1" y="-73.66"/>
+<instance part="L3" gate="1" x="53.34" y="-43.18"/>
 <instance part="L2" gate="1" x="53.34" y="2.54"/>
-<instance part="L1" gate="1" x="53.34" y="45.72"/>
-<instance part="X3" gate="G$1" x="66.04" y="53.34"/>
-<instance part="X4" gate="G$1" x="66.04" y="45.72"/>
-<instance part="X5" gate="G$1" x="66.04" y="10.16"/>
+<instance part="L1" gate="1" x="53.34" y="50.8"/>
+<instance part="X3" gate="G$1" x="66.04" y="60.96"/>
+<instance part="X4" gate="G$1" x="66.04" y="50.8"/>
+<instance part="X5" gate="G$1" x="66.04" y="12.7"/>
 <instance part="X6" gate="G$1" x="66.04" y="2.54"/>
 <instance part="X7" gate="G$1" x="66.04" y="-33.02"/>
-<instance part="X8" gate="G$1" x="66.04" y="-40.64"/>
+<instance part="X8" gate="G$1" x="66.04" y="-43.18"/>
 <instance part="C1" gate="G$1" x="-124.46" y="-40.64"/>
 <instance part="GND2" gate="1" x="-124.46" y="-48.26"/>
 <instance part="GND4" gate="1" x="-95.25" y="-48.26"/>
@@ -18688,7 +18688,7 @@ manufacturer Siemens</description>
 <instance part="R6" gate="G$1" x="-40.64" y="7.62" rot="R270"/>
 <instance part="P+5" gate="1" x="-24.13" y="12.7" rot="R270"/>
 <instance part="JP1" gate="A" x="-104.14" y="-22.86" rot="R90"/>
-<instance part="GND10" gate="1" x="-30.48" y="-62.738"/>
+<instance part="GND10" gate="1" x="-30.48" y="-60.96"/>
 </instances>
 <busses>
 </busses>
@@ -18697,7 +18697,7 @@ manufacturer Siemens</description>
 <segment>
 <pinref part="GND6" gate="1" pin="GND"/>
 <pinref part="C3" gate="G$1" pin="-"/>
-<wire x1="-5.08" y1="30.48" x2="-5.08" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="35.56" x2="-5.08" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U1" gate="IC" pin="GND"/>
@@ -18750,18 +18750,18 @@ manufacturer Siemens</description>
 <wire x1="-20.32" y1="-25.4" x2="-20.32" y2="-55.88" width="0.1524" layer="91"/>
 <junction x="-20.32" y="-55.88"/>
 <wire x1="-30.48" y1="-7.62" x2="-30.48" y2="-55.88" width="0.1524" layer="91"/>
-<wire x1="-30.48" y1="-55.88" x2="-30.48" y2="-60.198" width="0.1524" layer="91"/>
-<junction x="-30.48" y="-55.88"/>
 <pinref part="GND10" gate="1" pin="GND"/>
+<wire x1="-30.48" y1="-55.88" x2="-30.48" y2="-58.42" width="0.1524" layer="91"/>
+<junction x="-30.48" y="-55.88"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
 <pinref part="U3" gate="IC" pin="SW"/>
 <pinref part="D3" gate="G$1" pin="A"/>
-<wire x1="45.72" y1="-40.64" x2="45.72" y2="-43.18" width="0.1524" layer="91"/>
 <pinref part="L3" gate="1" pin="1"/>
-<junction x="45.72" y="-40.64"/>
+<junction x="45.72" y="-43.18"/>
+<wire x1="45.72" y1="-43.18" x2="45.72" y2="-45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="BOUT" class="0">
@@ -18769,7 +18769,7 @@ manufacturer Siemens</description>
 <pinref part="R9" gate="G$1" pin="2"/>
 <wire x1="30.48" y1="-33.02" x2="38.1" y2="-33.02" width="0.1524" layer="91"/>
 <pinref part="U3" gate="IC" pin="CSN"/>
-<wire x1="38.1" y1="-43.18" x2="38.1" y2="-33.02" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="-45.72" x2="38.1" y2="-33.02" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="-33.02" x2="63.5" y2="-33.02" width="0.1524" layer="91"/>
 <junction x="38.1" y="-33.02"/>
 <label x="60.96" y="-30.48" size="1.778" layer="95"/>
@@ -18788,11 +18788,11 @@ manufacturer Siemens</description>
 <net name="GOUT" class="0">
 <segment>
 <pinref part="R8" gate="G$1" pin="2"/>
-<wire x1="30.48" y1="10.16" x2="38.1" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="12.7" x2="38.1" y2="12.7" width="0.1524" layer="91"/>
 <pinref part="U2" gate="IC" pin="CSN"/>
-<wire x1="38.1" y1="0" x2="38.1" y2="10.16" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="10.16" x2="63.5" y2="10.16" width="0.1524" layer="91"/>
-<junction x="38.1" y="10.16"/>
+<wire x1="38.1" y1="0" x2="38.1" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="12.7" x2="63.5" y2="12.7" width="0.1524" layer="91"/>
+<junction x="38.1" y="12.7"/>
 <label x="60.96" y="12.7" size="1.778" layer="95"/>
 <pinref part="X5" gate="G$1" pin="S"/>
 </segment>
@@ -18801,28 +18801,28 @@ manufacturer Siemens</description>
 <segment>
 <pinref part="U1" gate="IC" pin="SW"/>
 <pinref part="D1" gate="G$1" pin="A"/>
-<wire x1="45.72" y1="45.72" x2="45.72" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="50.8" x2="45.72" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="L1" gate="1" pin="1"/>
-<junction x="45.72" y="45.72"/>
+<junction x="45.72" y="50.8"/>
 </segment>
 </net>
 <net name="ROUT" class="0">
 <segment>
 <pinref part="R7" gate="G$1" pin="2"/>
-<wire x1="30.48" y1="53.34" x2="38.1" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="60.96" x2="38.1" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="U1" gate="IC" pin="CSN"/>
-<wire x1="38.1" y1="53.34" x2="63.5" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="43.18" x2="38.1" y2="53.34" width="0.1524" layer="91"/>
-<junction x="38.1" y="53.34"/>
-<label x="60.96" y="55.88" size="1.778" layer="95"/>
+<wire x1="38.1" y1="60.96" x2="63.5" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="48.26" x2="38.1" y2="60.96" width="0.1524" layer="91"/>
+<junction x="38.1" y="60.96"/>
+<label x="60.96" y="60.96" size="1.778" layer="95"/>
 <pinref part="X3" gate="G$1" pin="S"/>
 </segment>
 </net>
 <net name="RED" class="0">
 <segment>
 <pinref part="U1" gate="IC" pin="DIM"/>
-<wire x1="22.86" y1="30.48" x2="17.78" y2="30.48" width="0.1524" layer="91"/>
-<label x="17.78" y="30.48" size="1.778" layer="95"/>
+<wire x1="22.86" y1="35.56" x2="17.78" y2="35.56" width="0.1524" layer="91"/>
+<label x="17.78" y="35.56" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="T3" gate="G1" pin="C"/>
@@ -18833,8 +18833,8 @@ manufacturer Siemens</description>
 <net name="BLUE" class="0">
 <segment>
 <pinref part="U3" gate="IC" pin="DIM"/>
-<wire x1="22.86" y1="-55.88" x2="2.54" y2="-55.88" width="0.1524" layer="91"/>
-<label x="2.54" y="-55.88" size="1.778" layer="95"/>
+<wire x1="22.86" y1="-58.42" x2="2.54" y2="-58.42" width="0.1524" layer="91"/>
+<label x="2.54" y="-58.42" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="T1" gate="G1" pin="C"/>
@@ -18857,34 +18857,37 @@ manufacturer Siemens</description>
 <net name="+12V" class="0">
 <segment>
 <pinref part="D1" gate="G$1" pin="C"/>
-<wire x1="40.64" y1="45.72" x2="30.48" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="50.8" x2="30.48" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="R7" gate="G$1" pin="1"/>
 <pinref part="U1" gate="IC" pin="VIN"/>
-<wire x1="30.48" y1="43.18" x2="15.24" y2="43.18" width="0.1524" layer="91"/>
-<junction x="30.48" y="43.18"/>
-<wire x1="15.24" y1="43.18" x2="15.24" y2="0" width="0.1524" layer="91"/>
-<wire x1="15.24" y1="0" x2="15.24" y2="-43.18" width="0.1524" layer="91"/>
-<wire x1="15.24" y1="43.18" x2="-5.08" y2="43.18" width="0.1524" layer="91"/>
-<junction x="15.24" y="43.18"/>
-<pinref part="D3" gate="G$1" pin="C"/>
-<wire x1="-5.08" y1="43.18" x2="-12.7" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="-40.64" x2="30.48" y2="-43.18" width="0.1524" layer="91"/>
-<pinref part="R9" gate="G$1" pin="1"/>
-<pinref part="U3" gate="IC" pin="VIN"/>
-<wire x1="30.48" y1="-43.18" x2="15.24" y2="-43.18" width="0.1524" layer="91"/>
-<junction x="30.48" y="-43.18"/>
+<wire x1="30.48" y1="50.8" x2="15.24" y2="50.8" width="0.1524" layer="91"/>
+<junction x="30.48" y="50.8"/>
+<wire x1="15.24" y1="50.8" x2="15.24" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="2.54" x2="15.24" y2="-43.18" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="50.8" x2="-5.08" y2="50.8" width="0.1524" layer="91"/>
+<junction x="15.24" y="50.8"/>
+<wire x1="-5.08" y1="50.8" x2="-12.7" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="D2" gate="G$1" pin="C"/>
-<wire x1="40.64" y1="2.54" x2="30.48" y2="0" width="0.1524" layer="91"/>
-<junction x="15.24" y="0"/>
+<wire x1="40.64" y1="2.54" x2="30.48" y2="2.54" width="0.1524" layer="91"/>
+<junction x="15.24" y="2.54"/>
 <pinref part="R8" gate="G$1" pin="1"/>
 <pinref part="U2" gate="IC" pin="VIN"/>
-<wire x1="30.48" y1="0" x2="15.24" y2="0" width="0.1524" layer="91"/>
-<junction x="30.48" y="0"/>
-<label x="5.08" y="48.26" size="1.778" layer="95"/>
+<wire x1="30.48" y1="2.54" x2="15.24" y2="2.54" width="0.1524" layer="91"/>
+<junction x="30.48" y="2.54"/>
+<label x="5.08" y="53.34" size="1.778" layer="95"/>
 <pinref part="C3" gate="G$1" pin="+"/>
-<wire x1="-5.08" y1="38.1" x2="-5.08" y2="43.18" width="0.1524" layer="91"/>
-<junction x="-5.08" y="43.18"/>
+<wire x1="-5.08" y1="43.18" x2="-5.08" y2="50.8" width="0.1524" layer="91"/>
+<junction x="-5.08" y="50.8"/>
 <pinref part="P+6" gate="1" pin="+12V"/>
+<wire x1="30.48" y1="50.8" x2="30.48" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="2.54" x2="30.48" y2="0" width="0.1524" layer="91"/>
+<pinref part="D3" gate="G$1" pin="C"/>
+<wire x1="15.24" y1="-43.18" x2="30.48" y2="-43.18" width="0.1524" layer="91"/>
+<pinref part="R9" gate="G$1" pin="1"/>
+<pinref part="U3" gate="IC" pin="VIN"/>
+<wire x1="30.48" y1="-43.18" x2="40.64" y2="-43.18" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="-43.18" x2="30.48" y2="-45.72" width="0.1524" layer="91"/>
+<junction x="30.48" y="-43.18"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="A1" pin="VI"/>
@@ -18910,7 +18913,7 @@ manufacturer Siemens</description>
 <segment>
 <pinref part="L1" gate="1" pin="2"/>
 <pinref part="X4" gate="G$1" pin="S"/>
-<wire x1="63.5" y1="45.72" x2="60.96" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="50.8" x2="60.96" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -18924,7 +18927,7 @@ manufacturer Siemens</description>
 <segment>
 <pinref part="L3" gate="1" pin="2"/>
 <pinref part="X8" gate="G$1" pin="S"/>
-<wire x1="63.5" y1="-40.64" x2="60.96" y2="-40.64" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="-43.18" x2="60.96" y2="-43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+5V" class="0">
