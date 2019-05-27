@@ -23,4 +23,8 @@ Changes:
     o   Rotated components
     
 2.5:
-    o   Reworking Layout
+    o   Reworking Layout, reducing components:
+        o   Streamlined the ESP Support by Removing programming support
+            -   Removed Networking Header
+            -   Programming switch
+        o   Removed the jumper for wireless vs wired communications
