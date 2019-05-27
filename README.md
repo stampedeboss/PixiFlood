@@ -1,7 +1,8 @@
 # PixiFlood
 PixiFlood LED Driver, Turn a 10w-100w floodlight Housing into a WS2811 Floodlight Pixel
 
-DESCRIPTION
+DESCRIPTION:
+
 A LED Driver that will allow a flood light to be controlled as a WS2811 Pixel. Allows up to 
 170 flood lights to be controlled with a single universe. 
 
