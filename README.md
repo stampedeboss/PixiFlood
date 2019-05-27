@@ -8,3 +8,5 @@ A LED Driver that will allow a flood light to be controlled as a WS2811 Pixel. A
 My goal was to enable placement of a flood light without having to deal with different controllers or 
 wiring needs. By using WS2811, place a flood light at the beginning or end of a pixel string and maintain 
 complete control. 
+
+Version 2 and Version 3 introduced the concept of a built in ESPixelStick, which allows wireless connectitivy to communicate with the Floodlight.
