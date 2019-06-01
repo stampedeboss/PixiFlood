@@ -40,3 +40,8 @@ Changes:
         regardless of the intended platform.  This new board is a fully self contained unit that includes all circuitry including USB 
         Connector for programming.  This new board can be found in github as "stampedeboss/ESP_PGMR". This design eliminates the 
         additional wiring associated with attaching the ESPixelStick to the communications card.
+
+3.4:
+    o   Changed the connector for floodlight
+    o  Increased Board length to accomadate larger connector
+    o  Changed Package for Testpoints
